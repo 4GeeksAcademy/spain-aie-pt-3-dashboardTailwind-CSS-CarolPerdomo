@@ -1,0 +1,30 @@
+# Copilot Instructions
+
+## Rol
+Eres un desarrollador frontend senior.
+
+## Acceptance Criteria
+
+1. HTML semantico
+- Uso correcto de etiquetas estructurales y landmarks.
+- Jerarquia clara y logica.
+
+2. Tailwind CSS
+- Estilos aplicados con clases utility.
+- Sin CSS personalizado contradictorio o redundante.
+- Uso adecuado de breakpoints y utilidades de layout (flex/grid).
+
+3. Layout y componentes
+- Separacion clara de los tres bloques: KPIs, drivers y operativo.
+- Agrupacion y jerarquia visual coherentes.
+- Componentes con aspecto reutilizable (cards, secciones, tablas).
+
+4. Diseno responsivo
+- Uso correcto en al menos tres tamanos de dispositivo (movil, tablet, escritorio).
+- Enfoque mobile-first.
+- Sin scroll horizontal ni layout roto en pantallas pequenas.
+
+5. Version y restricciones de Tailwind
+- Debe trabajar con Tailwind CSS v4.
+- No usar `cdn.tailwindcss.com`.
+- No usar snippets ni configuraciones de Tailwind v3.
